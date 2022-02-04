@@ -93,12 +93,13 @@ def random_sampling_corr(seq, samples=1000000):
     print(subseq[0:500])
     for sample in range(0,100):
         interval = random.randrange(0, L-5000)
+        print('intervalo de seq', interval)
         small_sample = subseq[interval:interval+5001]
         I = []
         K = 50
         T = int(len(small_sample)/2)
         for k in range(K):
-            C, X, Y = genera_conjuntos(seq, k, T)
+            C, X, Y = genera_conjuntos(small_sample, k, T)
             I.append(adjusted_mutual_info_score(X,Y))
         mutual_info_samples.append(I)
     mutual_info_samples = np.array(mutual_info_samples)
@@ -119,7 +120,10 @@ def get_corr_against_gen(sequence):
 
         corrs = []
         for sample in samples_mutual_info:
-            corrs.append(np.correlate(seq_mutual_info,sample))
+            current_corr =np.correlate(seq_mutual_info,sample)
+            corrs.append(current_corr)
+            print('corr',current_corr)
+        print('tammaño arreglo corr', len(corrs))
         
         corrs = np.array(corrs)
         sns.displot(corrs, kind="kde", rug=True)

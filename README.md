@@ -31,11 +31,17 @@ Replicar los resultados de los experimentos referentes a técnicas de Teoría de
    * [Homo sapiens (human)](https://www.ncbi.nlm.nih.gov/genome?term=human&cmd=DetailsSearch)
    * [Saccharomyces cerevisiae](https://www.ncbi.nlm.nih.gov/genome/?term=Saccharomyces%20cerevisiae[Organism]&cmd=DetailsSearch)
 4. Desarrollo de un primer [intento](proyecto/archive/InfoMutua.py) :( de calcular la información mutua que no resultó muy exitoso.
-5. Desarrollo de un segundo módulo de anális de la información con apoyo del profesor.
-6. Desarrollo de un módulo de lectura de archivos FASTA para la interpretación de secuencias.
-7. Extensión del módulo de información mutua para agregar funcionaliad adicional como la capacidad de graficar y realizar el cálculo de correlaciones.
-8. Experimentación.
-9. Recopilación de resultados y gráficos.
+6. Desarrollo de un segundo módulo de anális de la información con apoyo del profesor. Para el desarrollo de ambos módulos se utilizó:
+   * [Python 3.10.1](https://www.python.org/)
+   * [NumPy 1.22.0](https://numpy.org/)
+   * [scikit-learn 1.0.2](https://scikit-learn.org/stable/index.html)
+   * [Biopython 1.79](https://biopython.org/)
+   * [Seaborn 0.11.2](https://seaborn.pydata.org/)
+   * [Matplotlib 3.5.0](https://matplotlib.org/)
+8. Desarrollo de un módulo de lectura de archivos FASTA para la interpretación de secuencias.
+9. Extensión del módulo de información mutua para agregar funcionaliad adicional como la capacidad de graficar y realizar el cálculo de correlaciones.
+10. Experimentación.
+11. Recopilación de resultados y gráficos.
 
 ## Resultados:
 

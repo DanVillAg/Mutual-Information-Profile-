@@ -113,10 +113,12 @@ Sobrepuestos
 ---
 ### Correlaciones 
 
-Se realizó también la correlación coeficiente del perfil AMI de 100.000 fragmentos de 5kb de largo del genoma de E. coli vs el perfil AMI de (el primer millón de bases) la secuencia
+Se realizó también la correlación coeficiente del perfil AMI de 100.000 fragmentos de 5kb de largo del genoma de E. coli (y S. areus) vs el perfil AMI de (el primer millón de bases) la secuencia
+
+E. Coli
 <div align= "center"><img src="proyecto/figures/corrs_genome_E_coli.png" alt="corrs_genome_E_coli" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+S. areus
 <div align= "center"><img src="proyecto/figures/corrs_genome_S_areus.png" alt="corrs_genome_S_areus" style="height: 300px; width:500px;"/></div>
 
 Podemos llegar a ciertos entendidos, analizando los resultados presentados: 

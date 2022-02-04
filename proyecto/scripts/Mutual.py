@@ -47,7 +47,7 @@ def generate_ami_profile(seq, K = 300, name = 'Default'):
     I = get_mutual_info(seq, K)
 
     plt.plot(I[5:])
-    plt.savefig('/home/dan/Escritorio/GenomicaComputacional/proyecto/figures/{0}.png'.format(name))
+    plt.savefig('/home/dan/Escritorio/GenomicaComputacional/Mutual-Information-Profile-/proyecto/figures/{0}.png'.format(name))
     plt.xlabel("k")
     plt.ylabel("Información Mutua")
     plt.tight_layout()
@@ -77,7 +77,7 @@ def multiple_ami(list_seq, K = 50, name = 'Default'):
     plt.xlabel("k")
     plt.ylabel("Información Mutua")
     plt.tight_layout()
-    plt.savefig('/home/dan/Escritorio/GenomicaComputacional/proyecto/figures/{0}.png'.format(name))
+    plt.savefig('/home/dan/Escritorio/GenomicaComputacional/Mutual-Information-Profile-/proyecto/figures/{0}.png'.format(name))
     # Mostrar la gráfica
     plt.show()
 
@@ -111,10 +111,11 @@ def get_corr_against_gen(sequence):
     Saca las correlaciones de cada muestra contra el total
     sequence:lista de secuencias
     '''
-    for seq in sequence:
+    names = ['genome_S_areus','genome_E_coli']
+    for idx, seq in enumerate(sequence):
         seq_mutual_info = get_mutual_info(seq, K = 50)
-
-        samples_mutual_info = random_sampling_corr(seq, samples=5000)
+        print('Doing random 100,000 sampling of 5k sequences of genome: {0}'.format(names[idx]))
+        samples_mutual_info = random_sampling_corr(seq, samples=100000)
 
         corrs = []
         for sample in samples_mutual_info:
@@ -123,10 +124,10 @@ def get_corr_against_gen(sequence):
         corrs = np.array(corrs)
         sns.displot(corrs, kind="kde", rug=True)
 
-    plt.title("Histograma de correlacion entre muestras y primer millon de bases")
-    plt.xlabel("Coeficiente de Correlacion")
-    plt.tight_layout()
-    plt.savefig('/home/dan/Escritorio/GenomicaComputacional/proyecto/figures/corrs_S_areus.png')
+        plt.title("Histograma de correlacion entre muestras y primer millon de bases")
+        plt.xlabel("Coeficiente de Correlacion")
+        plt.tight_layout()
+        plt.savefig('/home/dan/Escritorio/GenomicaComputacional/Mutual-Information-Profile-/proyecto/figures/corrs_{0}.png'.format(names[idx]))
     # Mostrar la gráfica
     plt.show()
 

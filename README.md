@@ -45,13 +45,14 @@ Replicar los resultados de los experimentos referentes a técnicas de Teoría de
 
 ## Resultados:
 
-** Hombre **
+### Hombre 
+Cromosoma 1
 <div align= "center"><img src="proyecto/figures/human_0.png" alt="gen1hombre" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 7
 <div align= "center"><img src="proyecto/figures/human_2.png" alt="gen7hombre" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 14
 <div align= "center"><img src="proyecto/figures/human_3.png" alt="gen14hombre" style="height: 300px; width:500px;"/></div>
 
 Sobrepuestos
@@ -59,52 +60,72 @@ Sobrepuestos
 
 ---
 
-** Ratón **
+### Ratón 
+Cromosoma 1
 <div align= "center"><img src="proyecto/figures/mouse_0.png" alt="mouse0" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
-<div align= "center"><img src="proyecto/figures/mouse_1.png" alt="mouse1" style="height: 300px; width:500px;"/></div>
+Cromosoma 7
+<div align= "center"><img src="proyecto/figures/mouse_1.png" alt="mouse7" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 14
+<div align= "center"><img src="proyecto/figures/mouse_2.png" alt="mouse14" style="height: 300px; width:500px;"/></div>
+
+Cromosoma 17
+<div align= "center"><img src="proyecto/figures/mouse_3.png" alt="mouse14" style="height: 300px; width:500px;"/></div>
+
+Sobrepuestos
 <div align= "center"><img src="proyecto/figures/mouse_all.png" alt="mouseall" style="height: 300px; width:500px;"/></div>
 
 ---
-
-** S. Cerevisae **
+### S. Cerevisae
+Cromosoma 1
 <div align= "center"><img src="proyecto/figures/cerevisiae_0.png" alt="cerevisiae_0" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 5
 <div align= "center"><img src="proyecto/figures/cerevisiae_1.png" alt="cerevisiae_1" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 9
 <div align= "center"><img src="proyecto/figures/cerevisiae_2.png" alt="cerevisiae_2" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 11
+<div align= "center"><img src="proyecto/figures/cerevisiae_3.png" alt="cerevisiae_3" style="height: 300px; width:500px;"/></div>
+
+Sobrepuestos
 <div align= "center"><img src="proyecto/figures/cerevisiae_all.png" alt="cerevisiae_all" style="height: 300px; width:500px;"/></div>
 
 ---
-** C. Elegans **
+## C. Elegans 
+Cromosoma 1
 <div align= "center"><img src="proyecto/figures/c_elegans_0.png" alt="c_elegans_0" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 2
 <div align= "center"><img src="proyecto/figures/c_elegans_1.png" alt="c_elegans_1" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 3
 <div align= "center"><img src="proyecto/figures/c_elegans_2.png" alt="c_elegans_2" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Cromosoma 4
 <div align= "center"><img src="proyecto/figures/c_elegans_3.png" alt="c_elegans_3" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Sobrepuestos
 <div align= "center"><img src="proyecto/figures/c_elegans_all.png" alt="c_elegans_all" style="height: 300px; width:500px;"/></div>
 
 ---
-** Correlaciones **
+### Correlaciones 
+
+Se realizó también la correlación coeficiente del perfil AMI de 100.000 fragmentos de 5kb de largo del genoma de E. coli (y S. areus) vs el perfil AMI de (el primer millón de bases) la secuencia
+
+E. Coli
 <div align= "center"><img src="proyecto/figures/corrs_genome_E_coli.png" alt="corrs_genome_E_coli" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+S. areus
 <div align= "center"><img src="proyecto/figures/corrs_genome_S_areus.png" alt="corrs_genome_S_areus" style="height: 300px; width:500px;"/></div>
 
+Podemos llegar a ciertos entendidos, analizando los resultados presentados: 
+
+1. Secuencias genómicas de la misma especie tienen un patrón similar de picos y valles
+2. Se puede obtener una medida numérica de la cercanía de sus perfiles ami observando el coeficiente de correlación entre los perfiles AMI
+3. Las distancias entre cromosomas de la misma especie son sustancialmente menores que las distancias entre cromosomas de diferentes especies
 
 ## Conclusiones:
 

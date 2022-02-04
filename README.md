@@ -45,7 +45,7 @@ Replicar los resultados de los experimentos referentes a técnicas de Teoría de
 
 ## Resultados:
 
-Lorem ipsum
+** Hombre **
 <div align= "center"><img src="proyecto/figures/human_0.png" alt="gen1hombre" style="height: 300px; width:500px;"/></div>
 
 Lorem ipsum
@@ -54,10 +54,12 @@ Lorem ipsum
 Lorem ipsum
 <div align= "center"><img src="proyecto/figures/human_3.png" alt="gen14hombre" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+Sobrepuestos
 <div align= "center"><img src="proyecto/figures/human_all.png" alt="hombreAll" style="height: 300px; width:500px;"/></div>
 
-Lorem ipsum
+---
+
+** Ratón **
 <div align= "center"><img src="proyecto/figures/mouse_0.png" alt="mouse0" style="height: 300px; width:500px;"/></div>
 
 Lorem ipsum
@@ -66,9 +68,47 @@ Lorem ipsum
 Lorem ipsum
 <div align= "center"><img src="proyecto/figures/mouse_all.png" alt="mouseall" style="height: 300px; width:500px;"/></div>
 
-## Conclusiones:
+---
+
+** S. Cerevisae **
+<div align= "center"><img src="proyecto/figures/cerevisiae_0.png" alt="cerevisiae_0" style="height: 300px; width:500px;"/></div>
 
 Lorem ipsum
+<div align= "center"><img src="proyecto/figures/cerevisiae_1.png" alt="cerevisiae_1" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/cerevisiae_2.png" alt="cerevisiae_2" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/cerevisiae_all.png" alt="cerevisiae_all" style="height: 300px; width:500px;"/></div>
+
+---
+** C. Elegans **
+<div align= "center"><img src="proyecto/figures/c_elegans_0.png" alt="c_elegans_0" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/c_elegans_1.png" alt="c_elegans_1" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/c_elegans_2.png" alt="c_elegans_2" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/c_elegans_3.png" alt="c_elegans_3" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/c_elegans_all.png" alt="c_elegans_all" style="height: 300px; width:500px;"/></div>
+
+---
+** Correlaciones **
+<div align= "center"><img src="proyecto/figures/corrs_genome_E_coli.png" alt="corrs_genome_E_coli" style="height: 300px; width:500px;"/></div>
+
+Lorem ipsum
+<div align= "center"><img src="proyecto/figures/corrs_genome_S_areus.png" alt="corrs_genome_S_areus" style="height: 300px; width:500px;"/></div>
+
+
+## Conclusiones:
+
+El perfil AMI proporciona una firma de especie simple y fácilmente computable. La firma se puede utilizar en aplicaciones donde las relaciones evolutivas pueden deducirse utilizando fragmentos relativamente cortos de ADN, así como donde las relaciones evolutivas entre organismos deben estudiarse utilizando una gran secuencia genómica.
 
 ## Referencias:
 

@@ -91,9 +91,8 @@ def random_sampling_corr(seq, samples=1000000):
     mutual_info_samples = []
     print(L)
     print(subseq[0:500])
-    for sample in range(0,100):
+    for sample in range(0,10000):
         interval = random.randrange(0, L-5000)
-        print('intervalo de seq', interval)
         small_sample = subseq[interval:interval+5001]
         I = []
         K = 50
@@ -122,7 +121,6 @@ def get_corr_against_gen(sequence):
         for sample in samples_mutual_info:
             current_corr =np.correlate(seq_mutual_info,sample)
             corrs.append(current_corr)
-            print('corr',current_corr)
         print('tammaño arreglo corr', len(corrs))
         
         corrs = np.array(corrs)
